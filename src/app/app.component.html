@@ -1,0 +1,8 @@
+<p>This text is from the parent app.component!</p>
+<button (click)="signalChild()">Click me to ask child for the time</button>
+
+<p>The current time at the child component: {{childTime? childTime: '[not received yet]'}}</p>
+
+<child></child>
+
+<sibling></sibling>
